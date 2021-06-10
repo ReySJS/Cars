@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link href="styles/style.css" type="text/css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <title>Carros à Venda</title>
+</head>
+
+<body>
+    <a class="return" href="http://ubuntu.alphaedtech.org.br/aspirante/reinansantos/"><span>&crarr;</span></a>
+    <main>
+        <div class="header">
+            <h1>Rey dos Carros</h1><img src="images/logo.png" class="logo" />
+        </div>
+        <div id="returnScreen">
+            <div class="list">
+                <form id="formlistcar" name="listcar">
+
+
+                </form>
+                <div id="info">
+                    <span>Model:</span>
+                    <h2 id="carmodel" class="carinfo"></h2>
+                    <span>Year:</span>
+                    <h2 id="caryear" class="carinfo"></h2>
+                    <span>Max Speed:</span>
+                    <h2 id="carmaxspeed" class="carinfo"></h2>
+                </div>
+                <div class="addcarbutton"> <input class="function" type="button" value="NOVO CARRO"
+                        onclick="adcionarCarro()"></div>
+            </div>
+            <figure class="figurecontent"><img src="images/mclaren.jpg" alt="" id="carfocusimage" />
+                <figcaption id="carnamecaption" class="carinfo"></figcaption>
+            </figure>
+
+        </div>
+    </main>
+
+    <script src="scripts/script.js" type="text/javascript"></script>
+</body>
+
+</html>

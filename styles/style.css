@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #646464;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(161, 161, 161);
+}
+.return {
+    width: 50px!important;
+    height: 50px!important;
+    position: fixed;
+    top: 88%;
+    left: 2%;
+    text-align: center;
+    background: rgb(24, 28, 32);
+    border: 3px solid rgb(68, 79, 89);
+    font-size: 2.5em;
+    line-height: 50px;
+    color: #879FA6!important;
+    transition: 2s;
+    box-sizing: content-box;
+}
+.return:hover {
+    background: #879FA6;
+    color: rgb(24, 28, 32)!important;
+    transition: 2s;
+}
+main {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+.header {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 135px;
+    height: 135px;;
+    display: block;
+    line-height: 0;
+}
+h1 {
+    height: 135px;;
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#FFD2BB;
+    font-size: 2em;
+    line-height: 160px;
+}
+#returnScreen {
+    width: 1100px;
+    height: 550px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    border: 5px solid rgb(68, 79, 89);
+    background: rgb(13, 15, 17);
+}
+.list {
+    width: 240px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 1.2em;
+    border-right: 5px solid rgb(68, 79, 89);
+}
+form {
+    width: 215px;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    text-align: justify;
+}
+#info {
+    width: 215px;
+    margin-top: 25px;
+    text-align: center;
+  
+}
+#info h2 {
+    font-size: 1em;
+}
+.addcarbutton {
+    display: flex;
+    align-items: flex-end;
+}
+.function {
+    width: 215px;
+    height: 60px;
+    display: block;
+    float: left;
+    border: 1px solid rgb(136, 160, 167);
+    background: rgb(24, 28, 32);
+    color: rgb(136, 160, 167);
+    transition: 2s;
+}
+.function:hover {
+    background: rgb(136, 160, 167);
+    color: rgb(24, 28, 32);
+    border: 1px solid rgb(24, 28, 32);
+    transition: 2s;
+}
+.function:focus {
+    outline: unset;
+}
+
+.figurecontent {
+    width: 850px;
+    box-sizing: unset;
+    padding: 0;
+    display: block;
+    float: right;
+    margin: 0;
+}
+figure img {
+    width: 850px;
+    height: 465px;
+    padding: 0;
+    float: right;
+}
+figcaption {
+    width: 850px;
+    height: 75px;
+    text-align: center;
+    float: right;
+    font-size: 3em;
+    line-height: 75px;
+}
