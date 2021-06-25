@@ -15,6 +15,5 @@ Page developed in Javascript in the first month of the course. [Click here to te
 ## 📐 Layout
 
 <p align="center">
-  <img alt="Layout" src="https://user-images.githubusercontent.com/78664426/123468763-9da5db00-d5c8-11eb-94ec-de295ea25e91.png" />
+  <img alt="Layout" src="https://user-images.githubusercontent.com/78664426/123472169-33436980-d5cd-11eb-9ad1-a7637fb26032.png" />
 </p>
-
